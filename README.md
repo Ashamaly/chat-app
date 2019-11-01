@@ -1,24 +1,21 @@
-# README
+# ChaTrade
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Purpose
 
-Things you may want to cover:
+The purpose of ChaTrade is to connect registered users to one another via chat rooms so they can practice speaking different languages with each other. The idea being that if person A is a native English speaker and wants to practice his Japanese, person B who is a native Japanese can practice their english with them at the same time.
 
-* Ruby version
+The site isn't particularly well suited for teaching absolute beginners but rather for intermediates to practice what they've learned previously with native speakers of their desired language.
 
-* System dependencies
+## Functionality
 
-* Configuration
+## Sitemap
 
-* Database creation
+## Screenshots
 
-* Database initialization
+## Target Audience 
 
-* How to run the test suite
+The audience this app will be targeting is people who are interested in learning another language whether that be for educational purposes or for recreational purposes. 
 
-* Services (job queues, cache servers, search engines, etc.)
+## Tech Stack
 
-* Deployment instructions
-
-* ...
+The tech stack used is HTML, CSS, Ruby, Javascript and JQuery.
