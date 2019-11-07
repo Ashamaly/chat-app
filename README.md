@@ -10,6 +10,12 @@ There already exists a couple apps that have similar functionality to this one b
 
 This app allows users to create and manage their own accounts as well allow users to create different chat rooms different languages and combinations of said languages. Any user can create a room where they can list the languages they're trading or join an existing room with those desired languages. Users can also upload their own user profile picture to personalize their profile a little more to their liking.
 
+## Planning
+
+I brainstormed and planned the project prior to beginning using Trello and good old fashioned pen and paper. I used Trello to list user stories and steps needed to to fulfil those user stories. Over the course of the project I utilized Trello to keep on track of what part of the project needed to be worked on and prevent myself from branching out into unrelated tasks and allowing feature creep to happen (which occasionally happened regardless).
+
+Trello was very useful overall.
+
 ## Sitemap
 
 ## Screenshots
