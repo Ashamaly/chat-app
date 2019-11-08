@@ -71,6 +71,10 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
     devise (4.7.1)
@@ -217,6 +221,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   chromedriver-helper
+  coffee-script
   devise
   jbuilder (~> 2.5)
   jquery-rails
