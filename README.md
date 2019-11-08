@@ -16,6 +16,8 @@ I brainstormed and planned the project prior to beginning using Trello and good 
 
 Trello was very useful overall.
 
+Also the use of wireframes and properly fleshed out ERD hepled to keep an idea of what to 
+
 ## Sitemap
 
 ## Screenshots
