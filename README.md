@@ -16,15 +16,35 @@ I brainstormed and planned the project prior to beginning using Trello and good 
 
 Trello was very useful overall.
 
+<img src="docs/img/trello.png">
+
+
 ## Sitemap
 
 <img src="docs/img/sitemap.png">
 
 ## Screenshots
 
+<img src="docs/img/login.png">
+
+<img src="docs/img/home.png">
+
+<img src="docs/img/chatroom.png">
+
+<img src="docs/img/account.png">
+
+
 ## Wireframes
 
+<img src="docs/img/homewire.png">
+
+<img src="docs/img/loginwire.png">
+
+<img src="docs/img/chatwire.png">
+
 ## ERD
+
+<img src="docs/img/erd.png">
 
 ## Target Audience 
 
