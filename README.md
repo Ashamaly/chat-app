@@ -18,7 +18,13 @@ Trello was very useful overall.
 
 ## Sitemap
 
+<img src="docs/img/sitemap.png">
+
 ## Screenshots
+
+## Wireframes
+
+## ERD
 
 ## Target Audience 
 
