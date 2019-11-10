@@ -12,11 +12,9 @@ This app allows users to create and manage their own accounts as well allow user
 
 ## Planning
 
-I brainstormed and planned the project prior to beginning using Trello and good old fashioned pen and paper. I used Trello to list user stories and steps needed to to fulfil those user stories. Over the course of the project I utilized Trello to keep on track of what part of the project needed to be worked on and prevent myself from branching out into unrelated tasks and allowing feature creep to happen (which occasionally happened regardless).
+I brainstormed and planned the project prior to beginning using Trello and good old fashioned pen and paper. Afterwards I put the drawn out ideas into both Figma and lucid chart to get a cleaner representation of my ideas. I used Trello to list user stories and steps needed to to fulfil those user stories. Over the course of the project I utilized Trello to keep on track of what part of the project needed to be worked on and prevent myself from branching out into unrelated tasks and allowing feature creep to happen (which occasionally happened regardless).
 
 Trello was very useful overall.
-
-Also the use of wireframes and properly fleshed out ERD hepled to keep an idea of what to 
 
 ## Sitemap
 
@@ -37,3 +35,4 @@ The gems of note I used are:
 2. Bootstrap
 3. sass-rails
 4. jquery-rails
+5. cloudinary

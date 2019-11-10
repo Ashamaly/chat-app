@@ -3,6 +3,7 @@ class RoomsController < ApplicationController
     # @rooms = all rooms
     # @room = current room when applicable
     before_action :load_entities
+    before_action :authorise, only: [:edit, :update, :destroy]
     def index
         @rooms = Room.all
     end
@@ -39,11 +40,25 @@ class RoomsController < ApplicationController
         @room_messages = @room.room_messages.includes(:user)
     end
 
+    def destroy
+        @room.destroy
+        respond_to do |format|
+            format.html {redirect_to root_path, notice: "Room was successfully deleted"}
+        end
+    end
+
     protected
 
     def load_entities
         @rooms = Room.all
         @room = Room.find(params[:id]) if params[:id]
+    end
+
+    def authorise
+        if current_user != @room.user
+            flash[:alert] = "You aren't authorised to do that"
+            redirect_to root_path
+        end
     end
 
     def permitted_parameters

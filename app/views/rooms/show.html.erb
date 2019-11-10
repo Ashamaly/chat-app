@@ -47,6 +47,17 @@
         </div>
       </div>
 
+      <div>
+        <%= link_to root_path, class: "btn btn-primary" do %>
+          Back
+          <% end %><br />
+          <% if current_user.has_role?(:admin) %>
+        <%= link_to edit_room_path, class: "btn btn-danger", data: {confirm: "Are you sure?"} do %>
+          Destroy
+        <% end %>
+        <% end %>
+      </div>
+
       <%= form.input :room_id, as: :hidden %>
     <% end %>
   </div>
