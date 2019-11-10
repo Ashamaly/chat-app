@@ -16,8 +16,9 @@ I brainstormed and planned the project prior to beginning using Trello and good 
 
 Trello was very useful overall.
 
-<img src="docs/img/trello.png">
+<img src="docs/img/trello.jpg">
 
+This screenshot also includes the user stories.
 
 ## Sitemap
 
