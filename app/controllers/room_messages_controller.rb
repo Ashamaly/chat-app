@@ -5,6 +5,9 @@ class RoomMessagesController < ApplicationController
       @room_message = RoomMessage.create user: current_user,
                                          room: @room,
                                          message: params.dig(:room_message, :message)
+      @room_message.image.attach(params.dig(:room_message, :image))
+      #this line of code caused me so much grief
+
     end
   
     protected

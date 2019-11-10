@@ -67,3 +67,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "cloudinary", "~> 1.12"
 
 gem "rolify", "~> 5.2"
+
+gem "activestorage-cloudinary-service", "~> 0.2.3"

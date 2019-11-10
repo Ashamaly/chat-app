@@ -20,6 +20,7 @@
               <div class="message-content">
                 <p class="mb-1">
                   <%= room_message.message %>
+                  <%= image_tag room_message.image, width: 300 if room_message.image.attached? %>
                 </p>
 
                 <div class="text-right">
@@ -42,6 +43,8 @@
                                  input_html: {
                                    class: 'chat-input'
                                  } %>
+        <%= form.input :image, input_html: { class: 'image-attach' }
+        %>
         <div class="input-group-append">
           <%= form.submit "Send", class: 'btn btn-primary chat-input' %>
         </div>
